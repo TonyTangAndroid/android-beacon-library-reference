@@ -128,7 +128,7 @@ public class MonitorBeaconActivity extends AppCompatActivity
 
     @Override
     public void didExitRegion(Region region) {
-        Timber.i("exit:%s", region.getUniqueId());
+        Timber.w("exit:%s", region.getUniqueId());
     }
 
     @Override
