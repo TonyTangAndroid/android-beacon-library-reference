@@ -18,7 +18,7 @@ public class UuidProvider {
      */
     public static List<String> beaconToMonitored() {
         List<String> result = new ArrayList<>();
-        result.add("2F234454-CF6D-4A0F-ADF2-F4911BA9FFA6:1:2");
+        result.add("2F234454-CF6D-4A0F-ADF2-F4911BA9FFA9:9:32");
         return result;
     }
 }

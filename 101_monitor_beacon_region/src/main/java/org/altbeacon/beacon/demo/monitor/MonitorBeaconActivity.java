@@ -39,8 +39,7 @@ public class MonitorBeaconActivity extends AppCompatActivity
 
     private void plantTimberLog() {
         Timber.plant(new WoodTree(this)
-                .retainDataFor(WoodTree.Period.FOREVER)
-                .maxLength(100000).showNotification(true));
+                .retainDataFor(WoodTree.Period.FOREVER));
     }
 
     private void initBeaconScanSettings() {
