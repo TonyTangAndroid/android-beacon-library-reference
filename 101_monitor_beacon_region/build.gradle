@@ -27,7 +27,7 @@ android {
 }
 
 dependencies {
-    implementation 'com.github.TonyTangAndroid.Wood:wood:0.4.7'
+    implementation 'com.github.TonyTangAndroid.Wood:wood:0.5.9'
     implementation 'com.android.support:appcompat-v7:28.0.0'
     implementation 'org.altbeacon:android-beacon-library:2.15.4'
 }
